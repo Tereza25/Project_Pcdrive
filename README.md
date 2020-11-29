@@ -8,7 +8,7 @@ A API irá armazenar dados importantes de candidatxs, suficiente para suprir as 
 Será utilizado duas schemas:
 
 | CANDIDATE     | EMPRESAS       |
--------------------------------- |
+| ------------- | -------------- |
 | id            |  id            |
 | nome          |  razaoSocial   |
 | nascimento    |  nomeFantasia  |
@@ -21,7 +21,7 @@ Será utilizado duas schemas:
 | area          |  acessibilidade|
 | fone          |                |
 | email         |                |
-| status        |
+| status        |                |
 
  #### Tecnologias utilizadas
 - Node.js
@@ -37,7 +37,7 @@ Será utilizado duas schemas:
 Por meio dos métodos HTTP, será manipulado os dados de acordo com a necessidade dos usuários.
 
 | MÉTODO |       AÇÃO                   |
-----------------------------------------
+|------- | ---------------------------- |
 |GET     | EXIBIR PERFIL EMPRESA        |
 |GET     | EXIBIR O PERFIL CANDIDATO    |
 |GET     | EXIBIR STATUS (find e map)   |
@@ -47,5 +47,7 @@ Por meio dos métodos HTTP, será manipulado os dados de acordo com a necessidad
 |PATH    | ATUALIZAR APENAS STATUS      |
 |DELETE  | EXCLUIR EMPRESA              |
 |DELETE  | EXCLUIR CANDIDATO            |
+
+
 
 #### readme em processo de finalização
