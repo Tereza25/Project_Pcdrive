@@ -1,0 +1,24 @@
+{
+  "name": "project_pcdrive",
+  "version": "1.0.0",
+  "description": "GET  | \r GET  |\r POST | CADASTRO CANDIDATO\r POST | CADASTRO EMPRESAS\r PUT  | ATUALIZAR DADOS GERAIS (INTEIRO)\r PATH | ATUALIZAR STATUS (SÓ UM ITEM)\r DELETE  |\r DELETE  | EXCLUIR CANDIDATO",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tereza25/Project_Pcdrive.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tereza25/Project_Pcdrive/issues"
+  },
+  "homepage": "https://github.com/Tereza25/Project_Pcdrive#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}
